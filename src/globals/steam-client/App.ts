@@ -501,7 +501,7 @@ export interface Apps {
      *
      * On Linux, it scans inside /usr/share/applications and $XDG_DATA_HOME/applications.
      */
-    ScanForInstalledNonSteamApps(): Promise<NonSteamApp[]>;
+    ScanForInstalledNonSteamApps(param0: boolean): Promise<NonSteamApp[]>;
 
     /**
      * Sets the automatic update behavior for a Steam application.
